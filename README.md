@@ -1,2 +1,2 @@
 # events-sorter
-Sort Events by date and remove past Events
+Sort Events by date and identify past Events
