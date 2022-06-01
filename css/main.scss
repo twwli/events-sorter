@@ -1,0 +1,28 @@
+body {
+    font-family: "helvetica neue", helvetica, sans-serif;
+  }
+  
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+  
+  .upcoming-events {
+    display: flex;
+    
+    .event {
+      color: #396cf0;
+      background-color: #d5e1fb;
+      border-radius: 20px;
+      padding: 10px 20px;
+      margin: 10px 5px;
+      cursor:pointer;
+      
+      &.past-event {
+        opacity:.25;
+        color: #222;
+        background-color: #ccc;
+        pointer-events: none;
+      }
+    }
+  }
